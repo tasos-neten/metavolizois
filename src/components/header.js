@@ -13,6 +13,7 @@ const Header = ({ siteTitle,  siteDescription}) => (
       style={{
         margin: `0 auto`,
         maxWidth: 1200,
+        position: `relative`,
         padding: `1.45rem 1.0875rem`,
       }}
     >
@@ -27,8 +28,7 @@ const Header = ({ siteTitle,  siteDescription}) => (
           {siteTitle}
         </Link>
       </h1>
-      <hr>
-      <h2 style={{ margin: 0, color: `black` }}>
+      <h2 style={{ margin: 0, color: `black`, position: `absolute`, width: `100%`, background: `rgba(0,0,0,.4)`, padding: `1rem 0` }}>
         {siteDescription}
       </h2>
     </div>
