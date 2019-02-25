@@ -2,15 +2,11 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Μεταβολή Ζωής" keywords={[`αρωγή`, `αποτοξίνωση`, `ναρκωτικά`, `κέντρο αποτοξίνωσης`]} />
-    <div style={{ marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
     <div style={lineHeight: `1.6`}>
       Έχεις στο περιβάλλον σου κάποιον εξαρτημένο;
 Δεν είσαι μόνος μόνη είμαστε εδώ για σένα. Περάσαμε τα ίδια γεγονότα που περνάς και εσύ τώρα: θυμώσαμε, κλάψαμε, φωνάξαμε, ουρλιάξαμε αλλά στο τέλος βρήκαμε αυτό που αναζητούσαμε τόσο καιρό. Το κέντρο στήριξης οικογένειας εξαρτημένων ατόμων «ΜΕΤΑΒΟΛΗ ΖΩΗΣ».
