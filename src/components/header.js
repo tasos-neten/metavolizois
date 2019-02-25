@@ -16,7 +16,6 @@ const Header = ({ siteTitle,  siteDescription}) => (
         `container`
       }
     >
-      <Svg />
       <h1 style={{ margin: 0, padding: `.6rem 0`, fontSize: `1.8rem` }}>
         <Link
           to="/"
@@ -25,6 +24,7 @@ const Header = ({ siteTitle,  siteDescription}) => (
             textDecoration: `none`,
           }}
         >
+          <Svg />
           {siteTitle}
         </Link>
       </h1>
