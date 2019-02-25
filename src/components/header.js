@@ -36,7 +36,10 @@ const Header = ({ siteTitle,  siteDescription}) => (
           `container`
         }
       >
-        <h2 style={{ lineHeight: `1.5`, margin: `10rem 0`, zIndex: 10, color: `#fff`, position: `absolute`, background: `rgba(0,0,0,.4)`, padding: `1rem` }}>
+        <h2
+          className={
+            `hero`
+          }
           {siteDescription}
         </h2>
       </div>
