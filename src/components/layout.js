@@ -27,7 +27,14 @@ const Layout = ({ children }) => (
           }}
         >
           <main>{children}</main>
-          <footer>
+          <footer
+            className= {
+              `container`
+            }
+            style={{
+              padding: `1rem 0`
+            }}
+          >
             © {new Date().getFullYear()}
           </footer>
         </div>
