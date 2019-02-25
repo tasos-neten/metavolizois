@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Image from "./image"
-import Svg from "./svg"
+import { ReactComponent as Svg } from '../images/logo.svg';
 
 const Header = ({ siteTitle,  siteDescription}) => (
   <header
