@@ -40,6 +40,7 @@ const Header = ({ siteTitle,  siteDescription}) => (
           className={
             `hero`
           }
+        >
           {siteDescription}
         </h2>
       </div>
