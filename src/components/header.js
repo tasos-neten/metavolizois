@@ -11,11 +11,9 @@ const Header = ({ siteTitle,  siteDescription}) => (
     }}
   >
     <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 1200,
-        padding: `1.45rem 1.0875rem`,
-      }}
+      className={
+        `container`
+      }
     >
       <h1 style={{ margin: 0 }}>
         <Link
@@ -29,10 +27,19 @@ const Header = ({ siteTitle,  siteDescription}) => (
         </Link>
       </h1>
     </div>
-     <div style={{ marginBottom: `1.45rem`, position: `relative` }}>
-      <h2 style={{ margin: 0, color: `black`, position: `absolute`, width: `100%`, background: `rgba(0,0,0,.4)`, padding: `1rem 0` }}>
-        {siteDescription}
-      </h2>
+     <div style={{ marginBottom: `1.45rem` }}>
+      <div
+        style={{
+          position: `relative`,
+        }}
+        className={
+          `container`
+        }
+      >
+        <h2 style={{ margin: 0, zIndex: 10, color: `#fff`, position: `absolute`, width: `50%`, background: `rgba(0,0,0,.4)`, padding: `1rem 0` }}>
+          {siteDescription}
+        </h2>
+      </div>
       <Image />
     </div>
   </header>
