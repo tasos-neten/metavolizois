@@ -27,6 +27,7 @@ const Header = ({ siteTitle,  siteDescription}) => (
           {siteTitle}
         </Link>
       </h1>
+      <hr>
       <h2 style={{ margin: 0, color: `black` }}>
         {siteDescription}
       </h2>
