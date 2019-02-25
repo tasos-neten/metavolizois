@@ -2,7 +2,6 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Image from "./image"
-import { ReactComponent as Svg } from "../images/logo.svg"
 
 const Header = ({ siteTitle,  siteDescription}) => (
   <header
@@ -16,7 +15,6 @@ const Header = ({ siteTitle,  siteDescription}) => (
         `container`
       }
     >
-      <Svg />
       <h1 style={{ margin: 0, padding: `.6rem 0`, fontSize: `1.8rem` }}>
         <Link
           to="/"
