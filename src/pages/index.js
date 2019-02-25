@@ -8,7 +8,6 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Μεταβολή Ζωής" keywords={[`αρωγή`, `αποτοξίνωση`, `ναρκωτικά`, `κέντρο αποτοξίνωσης`]} />
-    <h1>Μεταβολή Ζωής</h1>
     <div style={{ marginBottom: `1.45rem` }}>
       <Image />
     </div>

@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Μεταβολή Ζωής`,
     description: `Κέντρο στήριξης για την αυτοβοήθεια του οικογενειακού περιβάλλοντος εξαρτημένων ατόμων.`,
-    author: `@tasos-neten`,
+    author: `@gatsbyjs`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -29,6 +29,6 @@ module.exports = {
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
+    'gatsby-plugin-offline',
   ],
 }
