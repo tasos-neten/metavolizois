@@ -11,6 +11,9 @@ const IndexPage = () => (
       style={{
         lineHeight: `1.5`,
       }}
+      className={
+        `container`
+      }
     >
     <p>
     <h3>Έχεις στο περιβάλλον σου κάποιον εξαρτημένο;</h3>
