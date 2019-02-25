@@ -631,7 +631,7 @@ pre tt:after {
     font-size: 100%;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 991px) {
   .hero {
     display: none;
   }
