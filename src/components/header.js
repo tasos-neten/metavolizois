@@ -15,7 +15,7 @@ const Header = ({ siteTitle,  siteDescription}) => (
         `container`
       }
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 style={{  }}>
         <Link
           to="/"
           style={{
@@ -36,7 +36,7 @@ const Header = ({ siteTitle,  siteDescription}) => (
           `container`
         }
       >
-        <h2 style={{ margin: 0, zIndex: 10, color: `#fff`, position: `absolute`, width: `50%`, background: `rgba(0,0,0,.4)`, padding: `1rem 0` }}>
+        <h2 style={{ lineHeight: `1.5`, margin: `10rem 0`, zIndex: 10, color: `#fff`, position: `absolute`, background: `rgba(0,0,0,.4)`, padding: `1rem` }}>
           {siteDescription}
         </h2>
       </div>
