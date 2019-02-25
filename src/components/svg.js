@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default () =>
-  `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" viewBox="468 381 424 87">
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" viewBox="468 381 424 87">
   <g data-item-type="image" data-item="Image" data-logo-item="" id="logo__item--logo_0" class="logo__item">
     <g class="logo__item__inner" transform="translate(456.84014757940713 377.5) scale(0.046921988707042055 0.046921988707042055) rotate(0 0 0)">
         
@@ -33,4 +33,4 @@ export default () =>
 </g>
 
     </g>
-</g></svg>`
+</g></svg>
