@@ -18,12 +18,11 @@ const Header = ({ siteTitle,  siteDescription}) => (
         display: `flex`
       }}
     >
-      <img src={require("../images/logo.svg")}/>
+      <img style={{margin: 0, width: `5rem`, height: `4rem`}} src={require("../images/logo.svg")}/>
       <h1 style={{ margin: 0, padding: `.6rem 0`, fontSize: `1.8rem` }}>
         <Link
           to="/"
           style={{
-            color: `black`,
             textDecoration: `none`,
           }}
         >
