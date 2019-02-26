@@ -15,6 +15,7 @@ const Header = ({ siteTitle,  siteDescription}) => (
         `container`
       }
     >
+      <img src={require("../images/logo.svg")}/>
       <h1 style={{ margin: 0, padding: `.6rem 0`, fontSize: `1.8rem` }}>
         <Link
           to="/"
