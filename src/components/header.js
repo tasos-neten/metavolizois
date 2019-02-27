@@ -19,7 +19,7 @@ const Header = ({ siteTitle,  siteDescription}) => (
       }}
     >
       <img style={{margin: 0, width: `5rem`, height: `4rem`}} src={require("../images/logo.svg")}/>
-      <h1 style={{ margin: 0, padding: `.6rem 0`, fontSize: `1.8rem` }}>
+      <h1 style={{ margin: 0, padding: `.8rem 0 0 0`, fontSize: `1.8rem` }}>
         <Link
           to="/"
           style={{
