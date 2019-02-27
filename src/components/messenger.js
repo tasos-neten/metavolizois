@@ -1,7 +1,7 @@
 import React from "react"
 
 const msg = `<div id="fb-root"></div>
-              <script>
+              <script async>
                 window.fbAsyncInit = function() {
                   FB.init({
                     xfbml            : true,
