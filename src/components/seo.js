@@ -61,7 +61,6 @@ function SEO({ description, lang, meta, keywords, title }) {
               )
               .concat(meta)}
           >
-            <!-- Load Facebook SDK for JavaScript -->
             <div id="fb-root"></div>
             <script>
               window.fbAsyncInit = function() {
@@ -79,7 +78,6 @@ function SEO({ description, lang, meta, keywords, title }) {
               fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));</script>
 
-            <!-- Your customer chat code -->
             <div class="fb-customerchat"
               attribution=setup_tool
               page_id="341603016451170"
