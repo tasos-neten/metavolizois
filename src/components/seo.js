@@ -19,8 +19,6 @@ let msg = `<div id="fb-root"></div>
     js.src = 'https://connect.facebook.net/el_GR/sdk/xfbml.customerchat.js';
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
-
-  
   <div class="fb-customerchat"
     attribution=setup_tool
     page_id="341603016451170"
@@ -28,6 +26,10 @@ let msg = `<div id="fb-root"></div>
     logged_in_greeting="Γειά σας! Πως μπορούμε να βοηθήσουμε;"
     logged_out_greeting="Γειά σας! Πως μπορούμε να βοηθήσουμε;">
   </div>`
+
+function createMarkup(msg) {
+  return {__html: msg}
+}
 
 function SEO({ description, lang, meta, keywords, title }) {
   return (
@@ -86,10 +88,9 @@ function SEO({ description, lang, meta, keywords, title }) {
                   : []
               )
               .concat(meta)}
-          />
-          <div
-            dangerouslySetInnerHTML={{ __html: msg }}
-          />
+          >
+            <div dangerouslySetInnerHTML={createMarkup(msg)} />
+          </Helmet>
         )
       }}
     />
