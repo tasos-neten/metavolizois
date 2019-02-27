@@ -3,10 +3,12 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Messenger from "../components/messenger"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Μεταβολή Ζωής - Κέντρο στήριξης εξαρτημένων ατόμων" keywords={[`αρωγή`, `αποτοξίνωση`, `ναρκωτικά`, `κέντρο αποτοξίνωσης`, `ανάρρωση`, `κέντρο στήριξης`]} />
+    <Messenger />
     <div 
       style={{
         lineHeight: `1.5`,
