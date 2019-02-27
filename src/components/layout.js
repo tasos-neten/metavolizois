@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
-import Messenger from "./messenger"
 import "./layout.css"
 
 const Layout = ({ children }) => (
@@ -20,7 +19,6 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Messenger />
         <Header siteTitle={data.site.siteMetadata.title} siteDescription={data.site.siteMetadata.description} />
         <div
           style={{
