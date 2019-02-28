@@ -55,7 +55,7 @@ function SEO({ description, lang, meta, keywords, title }) {
                 },
                 {
                   name: `google-site-verification`,
-                  content: N5O8Y_15w4ovhrh61Eh7VhV8sBNDy6kBs_Cvtp_pf2g,
+                  content: `N5O8Y_15w4ovhrh61Eh7VhV8sBNDy6kBs_Cvtp_pf2g`,
                 },
               ]
                 .concat(
