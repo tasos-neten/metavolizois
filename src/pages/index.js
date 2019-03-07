@@ -46,7 +46,7 @@ const IndexPage = () => (
     Όταν υπάρχει ένα πρόβλημα δεν είναι τί πρέπει να κάνεις αλλά να μάθεις και να κάνεις. Η άγνοια και η μη αποδοχή του προβλήματος είναι τα δύο κακά που επιτρέπουν τη συνέχεια του προβλήματος.  
     </p>
     <div>
-      <div dangerouslySetInnerHTML={ this.iframe() } />
+      <div dangerouslySetInnerHTML={ iframe } />
     </div>
     <hr />
     <p
