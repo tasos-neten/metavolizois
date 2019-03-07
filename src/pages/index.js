@@ -3,8 +3,8 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Youtube from "../components/youtube"
 
-const iframe = '<iframe width="100%" height="315" src="https://www.youtube.com/embed/rkg6V7qP5iI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 
 const IndexPage = () => (
   <Layout>
@@ -45,9 +45,7 @@ const IndexPage = () => (
     <p>
     Όταν υπάρχει ένα πρόβλημα δεν είναι τί πρέπει να κάνεις αλλά να μάθεις και να κάνεις. Η άγνοια και η μη αποδοχή του προβλήματος είναι τα δύο κακά που επιτρέπουν τη συνέχεια του προβλήματος.  
     </p>
-    <div>
-      <div dangerouslySetInnerHTML={ iframe } />
-    </div>
+    <Youtube />
     <hr />
     <p
       style={{
